@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SEATTLE CRIME DATA ANALYSIS</title>
+
+    <!--bootstrap for styling-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container"> <!-- content -->
+        <h1>SEATTLE CRIME DATA ANALYSIS</h1>
+        <p class="lead">By Prateek Tripathi, Harkar Talwar</p>
+        <div id="filterDiv" class="form-group col-sm-2">
+            <select class="form-control" id="yearSelect">
+            </select>
+        </div>
+
+        <div id="visContainer">
+        </div> <!-- A container to hold the visualization -->
+
+        <!-- more html content can go here, e.g., further details or explanations -->
+
+        <p id="citation">
+            <a 
+                href="https://dev.socrata.com/foundry/data.seattle.gov/y7pv-r3kh">Data from Seattle Police Department Report Incident
+            </a>
+        </p>
+    </div>
+
+    <!-- JavaScript modules -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="sample.js"></script>
+    <script src="visualization.js"></script>
+
+</body>
+</html>
